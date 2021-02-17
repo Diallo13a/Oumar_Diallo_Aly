@@ -1,0 +1,63 @@
+                                        PROJET FIL ROUGE  FRONT END ANGULAR
+
+
+
+I/   LANCEMENT  DU PROJET
+ 
+Une fois le projet téléchargé sur github (https://github.com/Diallo13a/LastAngularSymfony) exécuter la commande npm install afin d'installer les modules nécessaires.
+
+Après installation démarrer le serveur via la commande ng serve -o pour ouvrir le projet automatiquement dans le navigateur.
+
+
+II/  AUTHENTIFICATION
+
+Une fois le projet lancé, vous serrez en face d’un formulaire de connexion qui  requiert un username et un mot de passe.  Pour se connecter :
+
+_   tout les champs sont obligatoires
+_   les données doivent être valides.
+_   Utilisateur doit être en règle c’est à dire pas archivé.
+
+DONNEES :
+
+-ADMIN = {username: ' Louis Rodriguez', password: ‘pass_1234'}
+-FORMATEUR = {username: ' Bella', password: ‘pass_1234'}
+-APPRENANT = {username: ' choco', password: ‘pass_1234'}
+-CM = {username: ' Noémi Chevalier', password: ‘pass_1234'}
+
+
+III/ FONCTIONNALITES
+
+Une fois connectée, vous serez rediriger vers une page d'accueil. Au niveau du navbar à droite, nous avons le profil et la photo de l’utilisateur qui s’est connecté ainsi que les fonctionnalités  de l’appliaction à savoir les profils, les users , les compétences, les groupes de competence, la promotion, le referentiel
+
+1/profil
+
+Concernant les profils, nous avons la liste en face de nous avec  différentes actions qu’on peut réaliser :
+
+- Rechercher un profil
+_  Nous pouvons ajouter un profil directement
+
+_  Modifier un profil existant
+
+_  Suppression d’un profil
+
+_  Lister les utilisateurs d’un profil 
+ 
+
+2/ User :
+
+Concernant les utilisateurs, nous avons la liste en face de nous avec  différentes actions qu’on peut réaliser :
+
+_  Possibilité de rechercher un utilisateur 
+
+_  Nous pouvons ajouter un utilisateur 
+
+_  Modifier un utilisateur existant
+
+_  Suppression d’un utilisateur 
+
+IV/   DECONNEXION
+
+Pour se déconnecter, il faut juste cliquer le profil et choisir l’option logout puis confirmer.
+
+
+
